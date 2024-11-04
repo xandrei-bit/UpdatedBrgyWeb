@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Barangay Logo" class="logo">
+    <h1>Welcome to Barangay San Agustin</h1>
+    <p>"Together, Building Stronger Communities!"</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="intro">
+        <h2>Welcome to Barangay San Agustin</h2>
+        <p>"Unity and progress thrive here! Together, we build a community grounded in tradition, cooperation, and shared aspirations for a better tomorrow."</p>
+        <button id="subscribe-btn">Subscribe to Newsletter</button>
+    </section>
+</main>
+
+<!-- Pop-up Newsletter Form -->
+<div id="newsletterPopup" class="popup">
+    <div class="popup-content">
+        <span class="close">&times;</span>
+        <h2>Subscribe to Our Newsletter</h2>
+        <form id="newsletter-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script> <!-- Link to external JS file -->
+</body>
+</html>
+
